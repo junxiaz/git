@@ -75,6 +75,11 @@ team - remote - pull
     3. pull:更新服务端的分支内容到本地分支
     4. 修改冲突：直接修改或者merge tool（--->已经变为了普通本地文件）,add to index,commit push
 
+## git多人团队开发
+1. GitHub该项目中 => settings
+2. 增加合作者：collaboration中加入合作者：GitHub全名或邮箱 => 发送邀请链接
+3. 合作者： 打开该链接接受邀请：合作开发...clone项目 => 修改 => add\commit\push
+
 ## git常用命令说明：
 1. 在本地新建git项目，在项目根目录中右键 Git Bash Here
 2. git init:新建git项目
