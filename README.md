@@ -40,9 +40,44 @@ git:分布式版本控制工具
 ## 更新项目（远程-本地）
 git pull
 
-## git使用命令说明：
+## 在编辑器中操作git（例如Eclipse）
+`目前的eclipse基本都支持git，若不支持则在eclipse marktplace搜git安装配置`
+1. team-git-configuration -邮箱 用户名
+2. general -network -ssh2选中 生成的ssh目录
+
+### 第一次发布
+1. share project
+2. add to index：加入暂存区
+3. commit：提交到本地分支
+4. 将项目推送到远程：右键 => team => remote => push ===
+
+### 提交
+1. team-add to index
+2. team -commit
+3. team -push
+
+### commit方式
+commit and push 或 commit按钮的区别：
+1. commit按钮：不能单独的push某一个文件，只能push整个项目
+2. commit and push：可以单独push某一个文件
+
+### 第一次下载
+import -clone -输入 https/ssh的唯一标识符
+
+### 更新
+team - remote - pull
+
+## git冲突的解决
+1. 发现冲突：进入同步视图 右键 => team => synchronized...
+2. 解决冲突：
+	1. add to index:添加到本地暂存区
+    2. commit:提交到本地分支
+    3. pull:更新服务端的分支内容到本地分支
+    4. 修改冲突：直接修改或者merge tool（--->已经变为了普通本地文件）,add to index,commit push
+
+## git常用命令说明：
 1. 在本地新建git项目，在项目根目录中右键 Git Bash Here
 2. git init:新建git项目
-1. git add:将本地文件增加到暂存区
-2. git commit:将暂存区的文件提交到本地仓库（本地仓库，默认master分支）
-3. git push:将本地仓库的文件推送到远程仓库（远程分支）
+3. git add:将本地文件增加到暂存区
+4. git commit:将暂存区的文件提交到本地仓库（本地仓库，默认master分支）
+5. git push:将本地仓库的文件推送到远程仓库（远程分支）
