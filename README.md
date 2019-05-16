@@ -82,7 +82,7 @@ team - remote - pull
 3. 合作者： 打开该链接接受邀请：合作开发...clone项目 => 修改 => add\commit\push
 
 ## git常用命令说明：
-[Git命令]: https://github.com/junxiaz/git/blob/master/imgs/Git_articlex.jpg
+![Git命令](https://github.com/junxiaz/git/blob/master/imgs/Git_articlex.jpg)
 1. 在本地新建git项目，在项目根目录中右键 Git Bash Here
 2. git init:新建git项目
 3. git add:将本地文件增加到暂存区
