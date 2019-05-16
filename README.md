@@ -1,7 +1,7 @@
 # git
 ## git说明：
 git:分布式版本控制工具
-[Git工作流程]: ./imgs/Git_workflow.png
+![Git工作流程](https://github.com/junxiaz/git/blob/master/imgs/Git_workflow.png)
 
 ## git安装：
 1. msysgit.github.io
