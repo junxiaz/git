@@ -40,8 +40,7 @@ git:分布式版本控制工具
 ## 更新项目（远程-本地）
 git pull
 
-## git使用命令：
-
+## git使用命令说明：
 1. 在本地新建git项目，在项目根目录中右键 Git Bash Here
 2. git init:新建git项目
 1. git add:将本地文件增加到暂存区
