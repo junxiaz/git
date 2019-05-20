@@ -48,7 +48,7 @@ git pull
 
 ### 第一次发布
 1. share project
-2. add to index：加入暂存区
+2. add to index：加入到暂存区
 3. commit：提交到本地分支
 4. 将项目推送到远程：右键 => team => remote => push ===
 
