@@ -1,4 +1,4 @@
-# git
+# git使用说明
 ## git说明：
 git:分布式版本控制工具
 ![Git工作流程](https://github.com/junxiaz/git/blob/master/imgs/Git_workflow.png)
