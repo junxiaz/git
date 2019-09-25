@@ -27,7 +27,7 @@ git:分布式版本控制工具
 ## 第一次发布项目（本地-远程）
 1. git add . //工作区文件 => 暂存区
 2. git commit -m '注释内容' //暂存区文件 => 工作区本地分支（默认master）
-3. git push -u origin master
+3. git push -u origin master(若远程项目中含有README.md，可能会造成提交失败，需要使用git pull --rebase origin master)
 
 ## 第一次下载项目（远程-本地）
 1. git clone git@github.com:junxiaz/git.git
